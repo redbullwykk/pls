@@ -1,0 +1,52 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* components */
+.card{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.text-center{
+    text-align: center;
+}
+
+h2,h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+/* tabs */
+.main-tabs{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.tabs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    width: 100%;
+    margin: 0px;
+}
+
+.tabs-item{
+    text-align: center;
+    padding: 10px;
+    color: rgb(179, 179, 179);
+}
+
+.tabs a{
+    text-decoration: none;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+}
